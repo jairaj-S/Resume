@@ -1,0 +1,91 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[margin=0.45in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{graphicx}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=2pt, parsep=0pt}
+
+\newcommand{\resumesection}[1]{%
+    \vspace{6pt}
+    \noindent{\large\bfseries #1}\par
+    \vspace{2pt}
+    \hrule
+    \vspace{4pt}
+}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Jairaj Sharma}}\\[2.5pt]
+    \resizebox{\textwidth}{!}{\mbox{US Citizen \textbar\ Email: \href{mailto:sharma.jairajn@gmail.com}{sharma.jairajn@gmail.com} \textbar\ Phone: 603-921-1481 \textbar\ LinkedIn: \href{https://linkedin.com/in/jairajsharma}{linkedin.com/in/jairajsharma} \textbar\ GitHub: \href{https://github.com/jairaj-S}{github.com/jairaj-S}}}
+\end{center}
+
+\vspace{4pt}
+
+\resumesection{Education}
+\textbf{Virginia Tech} \hfill Blacksburg, VA\\
+Bachelor of Science in Computer Science, GPA: 3.5/4.0 \hfill Aug. 2023 -- May 2026\\
+\textit{Relevant Coursework:} Operating Systems, Computer Organization, Programming Languages, Introduction to AI, Data Analytics \& Visualization, Data Structures \& Algorithms
+
+\resumesection{Projects}
+
+\textbf{CanvasInsight} \textbar\ \textit{Flask, React, SQLite, OAuth 2.0, Canvas LTI, LLM API, AI Assisted Coding} \hfill Spring 2026
+\begin{itemize}
+    \item Developed and deployed an instructor-facing Canvas LMS tool to deliver automated analysis for student discussion threads, currently utilized in two Summer 2026 Computer Science Ethics courses.
+    \item Leveraged the school’s LLM capabilities to surface student engagement patterns, common misconceptions, and rubric-aligned insights across threads containing up to 200 student replies.
+    \item Generated organized participation metrics, cross-thread trend summaries, and actionable teaching recommendations directly from structured and unstructured data to significantly reduce manual instructor analysis.
+\end{itemize}
+
+\textbf{Patient Data Retrieval Tool @ VTHacks 13 Winner} \textbar\ \textit{JS, Python, Expo, FastAPI} \hfill Sept. 2025
+\begin{itemize}
+    \item Built an Expo/React Native EMS app for patient identification that captures facial images and surfaces critical medical records, reducing average EMT response times.
+    \item Designed and prototyped a FastAPI backend supporting facial-recognition matching for dispatcher-to-EMT communication.
+\end{itemize}
+
+\resumesection{Experience}
+
+\textbf{Undergraduate Research Assistant} \hfill September 2025 -- June 2026\\
+\textit{Virginia Tech National Security Institute} \hfill Blacksburg, VA
+\begin{itemize}
+    \item Engineered 2 programmatic UAS (Unmanned Aerial Systems) scenarios in a Virtual Testing Environment, emulating drone base-incursion events via Python API to support replicable adversarial simulation.
+    \item Automated waypoint generation and telemetry capture (position, RF path loss, success metrics) for ground and aerial vehicles, enabling reproducible batch experiments across parameterized configurations.
+    \item Developed a parameterized experiment generator using PyYAML and SciPy with Latin Hypercube Sampling; built pandas and Matplotlib dashboards to track and analyze trial outcomes.
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{Student Concept Developer, Hacking for Defense Fall 2025 Cohort} \hfill September 2025 -- December 2025\\
+\textit{Virginia Tech} \hfill Blacksburg, VA
+\begin{itemize}
+    \item Selected as 1 of 5 students to lead concept development for single-pilot multi-drone swarm control, translating mission needs into system requirements and risk constraints.
+    \item Led stakeholder discovery with Air Force leadership through 70+ structured interviews on base-incursion scenarios, surfacing key evaluation metrics (pilot workload, link latency) to prioritize solution paths.
+    \item Analyzed the command-and-control software stack, comparing ground-station workflows (Betaflight vs.\ MAVLink / QGroundControl) against Federal Aviation Administration and DoD deployability constraints.
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{AI Solutions and Government Bids Intern} \hfill June 2025 -- September 2025\\
+\textit{Trinity Bridge Consulting Services} \hfill Nashua, NH
+\begin{itemize}
+    \item Documented end-to-end workflows for 9 ML prototypes across data collection, model training, and monitoring phases, standardizing documentation for government proposal submissions.
+    \item Built a National Health and Nutrition Examination Survey 2021-2023 machine learning pipeline to predict dietary supplement ingredient categories from lab and questionnaire data, using Decision Trees, GridSearchCV cross-validation, class balancing, and confusion-matrix analysis.
+\end{itemize}
+
+\vspace{4pt}
+
+\resumesection{Technical Skills and Certifications}
+\textbf{Certifications:} AWS Certified AI Practitioner (July 2026), AWS Certified Cloud Practitioner (August 2026) \\
+\textbf{Languages:} Python, C, Java, JavaScript, SQL, HTML/CSS \\
+\textbf{Frameworks/Tools:} AWS Bedrock, AWS Sagemaker, Visual Studio, FastAPI, Flask, React Native, Expo, Docker, \\
+Git/GitHub/Gitlab, Linux, REST APIs, YAML, JSON \\
+\textbf{Libraries:} Pandas, NumPy, Matplotlib, SciPy, Scikit-learn \\
+\textbf{Specialized:} MAVLink, QGroundControl, OpenAI API
+
+\end{document}
